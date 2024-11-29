@@ -1,0 +1,73 @@
+- Install * nodeJS in debian:
+
+No terminal:
+    sudo apt install nodeJS
+    sudo apt install npm;
+
+* Atualizando o NodeJS para a ultima versão estável:
+
+No terminal:
+    sudo npm cache clean -f
+    sudo npm install -g n
+    sudo n stable
+
+* Verificando a versão da dependencia/aplicativo etc.
+No terminal: 
+    *nome do programa* --version 
+    Exemplo -> node --version;
+
+## Iniciando projeto NodeJS
+
+* O primeiro a se fazer é iniciar o node naquele diretório.
+No terminal: npm init es6 -y
+
+npm init - faz com que crie o documento package.json, este documento é responsavel por informações base sobre nosso projeto, como o nome dele, a versão dele, as dependencias nele utilizadas etc.
+*es6* e *-y* são opcionais, sendo o "es6" responsável por indicar ao projeto que será utilizado o JAVASCRIPT mais recente e o -y responsável por dizer que sim em todas as perguntas do npm init.
+
+## .gitignore
+
+Para que arquivos não sejam inseridos indevidamente no github, utilizamos o arquivo ".gitignore" inserindo apenas o nome do arquvivo ou a pasta.
+exemplo:    node_modules
+            instruction.txt
+            ...
+
+
+# node server.js
+- Comando este utilizado para iniciarmos um servidor/arquivo utilizando o node, porem, utilizando este comando, sempre que o comando for salvo novamente, teremos de encerrar o servidor e abri-lo novamente.
+- Caso não queira ficar reiniciando o servidor existem duas opções, a primeira é instalando a dependencia nodemon utilizando o npm install nodemon
+-- a outra opção é usar o "--watch" que o comando se reiniciará sempre que o arquivo for modificado. "node --watch server.js" 
+
+* Dependencia Express
+
+- o Express é uma dependencia (miniframework) responsavel pela criação de servidores de forma simples e rápida.
+
+arquivoServer.js
+'
+
+import express from 'express'; // importar a função express da pasta 'express' (que está localizada na pasta node_modules)
+
+const app = express(); // com isso, todo o express fica de facil acesso sendo utilizado como uma função, e para chama-lo precisaremos apenas usar a palavra app.
+
+app.listen(3000, () => {
+    console.log("Servidor escutando na porta 3000... localhost:3000");
+});
+
+'
+
+Com apenas essas 6 linhas ja é possivel criar um servidor na porta 3000, acessada facilmente utilizando o navegador na url localhost:3000
+
+a função listen requer 1 "porta" e uma mensagem de retorno(callback)
+
+'app.listen(3000, () => console.log(vocẽ abriu um servidor na porta 3000));'
+
+## Criando variáveis de ambiente
+- Apos criar o arquivo ".env" e o utilizando o arquivo, podemos nele utilizar variáveis que não serão de acesso publico. 
+
+
+## Status de conexão 
+não é incomum após uma conexão que o status dela , seja ele bom ou ruim.
+-- https://http.cat/ -> para verificar possiveis status.
+   
+
+# npm install multer
+- gerencia os arquivos adquiridos / enviados.
