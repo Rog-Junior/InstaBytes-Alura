@@ -37,7 +37,8 @@ Sejam bem vindos a **Imersão Alura - 2024** contendo uma Aplicação web simple
 * **NPM:** [Acesse aqui](https://www.npmjs.com/)
 * **MongoDB ATLAS:** [Acesse aqui](https://www.mongodb.com/products/platform/atlas-database)
 * **Chave da API do Google Gemini:** [Acesse aqui](https://cloud.google.com/?hl=pt_br)
-**Contribuições:**
+
+# **Contribuições:**
 
 * Gostaria neste momento de agradecer à **Alura** por esta imersão Front e Back-End que me ajudou a me aprimorar e desenvolver meus conhecimentos nestes assuntos.
 * Agradecimentos também à **Google Gemini**, cuja API de inteligência artificial forneceu a funcionalidade essencial de gerar descrições automáticas para as imagens, tornando o projeto mais interessante e dinâmico.
