@@ -25,6 +25,6 @@ InstaBytes-FrontEnd/yarn-error.log*
 InstaBytes-FrontEnd/*.log
 InstaBytes-FrontEnd/*.min.js
 
-InstaBytes-Backend/node_modules/
-InstaBytes-Backend/Keys.txt
-InstaBytes-Backend/.env
+node_modules/
+Keys.txt
+.env
