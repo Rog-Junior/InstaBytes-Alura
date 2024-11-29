@@ -1,0 +1,29 @@
+{
+  "name": "frontinstabytes",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": "",
+  "contributors": [],
+  "scripts": {
+    "dev": "npx parcel --no-cache --port 8000 index.html",
+    "test": ""
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "main": "index.js",
+  "description": ""
+}
